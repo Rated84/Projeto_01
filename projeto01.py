@@ -31,7 +31,3 @@ r2 = r2_score(y_test, y_pred)
 rmse = num.sqrt(mean_squared_error(y_test, y_pred))
 mae = mean_absolute_error(y_test, y_pred)
 
-
-print("RMSE:", rmse)
-print("MAE:", mae)
-print("R2:", r2)
